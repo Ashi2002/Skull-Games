@@ -1,0 +1,63 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;}
+header{
+	background-image:linear-gradient(rgba(0,0,0,-0.7),rgba(0,0,0,-0.7)), url('happy new year back.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 100vh;}
+.logo{
+	top: 5px;
+	align-self: center;}
+
+.quick-links{
+	left: 0;
+	bottom: 90;
+	position: absolute;}
+.quick-links ul{
+	display: inline-flex;
+	margin: auto;
+	text-align: center;}
+.quick-links ul li{
+	list-style: none;
+	margin: auto;
+	cursor: pointer;}
+
+nav{
+	width: 100%;
+	height: 50px;
+	background-color: #0005;
+	line-height: 50px;}
+nav ul{
+	float: right;
+	margin-right: 30px;}
+nav ul li{
+	list-style-type: none;
+	display: inline-block;
+	transition: 0.9s all;}
+nav ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 30px;}
+nav ul li:hover{background-color: #42455a;}
+.skull{
+	position: absolute;
+	right: -150px;
+	top: 150px;
+	font-family: arial,sans-serif;
+	font-size: 55px;
+	color: red;
+	text-shadow: 5px 5px 5px lime;}
+.wish{
+	position: absolute;
+	right: -100px;
+	top: 550px;
+	font-family: arial,sans-serif;
+	font-size: 55px;
+	color: red;
+	text-shadow: 5px 5px 5px lime;}
+.base{
+		text-align: bottom;
+	}

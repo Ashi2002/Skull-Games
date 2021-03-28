@@ -1,0 +1,103 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+font-family: 'Roboto', sans-serif;}
+header{
+	background-image:linear-gradient(rgba(0,0,0,-0.7),rgba(0,0,0,-0.7)), url('contact us.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 100vh;}
+.logo{
+	top: 5px;
+	align-self: center;}
+
+.quick-links{
+	left: 0;
+	bottom: 90;
+	position: absolute;}
+.quick-links ul{
+	display: inline-flex;
+	margin: auto;
+	text-align: center;}
+.quick-links ul li{
+	list-style: none;
+	margin: auto;
+	cursor: pointer;}
+
+nav{
+	width: 100%;
+	height: 50px;
+	background-color: #0005;
+	line-height: 50px;}
+nav ul{
+	float: right;
+	margin-right: 30px;}
+nav ul li{
+	list-style-type: none;
+	display: inline-block;
+	transition: 0.9s all;}
+nav ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 30px;}
+nav ul li:hover{background-color: #42455a;}
+.skull{
+	position: absolute;
+	top: 150px;
+	right: 300px;
+	font-family: arial,sans-serif;
+	font-size: 45px;
+	color: #000000;
+	text-shadow: 2px 2px 5px red;}
+
+.content-section h1{
+	text-align: center;
+	color: #ffffff;
+}
+
+.border {
+	background: #2980b9;
+	margin: 40px;
+}
+
+.content-form {
+	max-width: 600px;
+	margin: auto;
+	padding: 0 10px;
+	overflow: hidden;
+
+}
+.content-form-text{
+	display: block;
+	width: 100%;
+	box-sizing: border-box;
+	margin: 16px 0;
+	border: 0;
+	background: #1111;
+	padding: 20px 40px;
+	outline: none;
+	color: black;
+	transition: 0,5s;
+}
+.content-form-text:focus {
+ box-shadow: 0 0 10px 4px #2980b9;
+}
+textarea.content-form-text{
+	resize: none;
+	height: 120px;
+}
+.content-form-btn{
+	float: right;
+	border: 0;
+	background: #2980b9;
+	color: #ffffff;
+	padding: 12px 50px;
+	border-radius: 20px;
+	cursor: pointer;
+	transition: 0,5s;
+}
+.content-form-btn-hover {
+	background: #2980b9;
+}
